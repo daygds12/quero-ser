@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cabeçalho {
+    background-color: coral;
+    padding: 25px;
+    text-align: center;
+}
+
+.mao {
+    text-align: center;
+    font-weight: 25px;
+    font-size: 28px;
+    margin: 15px;
+}
+
+.robo {
+    text-align: center;
+    background-color: rgb(158, 70, 37);
+}
+
+img {
+    border-radius: 15px;
+}
+
+@media only screen and (max-device-width: 900px) {
+    * body{ width:100%; } 
+}
